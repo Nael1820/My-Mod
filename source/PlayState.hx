@@ -917,7 +917,7 @@ class PlayState extends MusicBeatState
         creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
         add(creditTxt);
 		
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "HAHA NOOB", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOT PLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
